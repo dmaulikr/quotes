@@ -58,11 +58,11 @@
 			children = (
 				C7118CF81F37B34300DDD19F /* AppDelegate.swift */,
 				C7118CFA1F37B34300DDD19F /* ViewController.swift */,
+				C7118D0A1F37B74A00DDD19F /* QuestionBank.swift */,
 				C7118CFC1F37B34300DDD19F /* Main.storyboard */,
 				C7118CFF1F37B34300DDD19F /* Assets.xcassets */,
 				C7118D011F37B34300DDD19F /* LaunchScreen.storyboard */,
 				C7118D041F37B34300DDD19F /* Info.plist */,
-				C7118D0A1F37B74A00DDD19F /* QuestionBank.swift */,
 			);
 			path = "Motivation Quotes App";
 			sourceTree = "<group>";

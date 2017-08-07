@@ -19,6 +19,10 @@ class quotes {
         "thumb_steve", "thumb_brendon", "thumb_theodore"
     ]
     
+    var authors: [String] = [
+        "Steve Jobs", "Brendon Burchard", "Theodore Roosevelt"
+    ]
+    
     var currentQuoteIndex: Int = 0
     
     func getNextQuote() -> String {
@@ -27,8 +31,11 @@ class quotes {
         } else {
             currentQuoteIndex += 1
         }
-        
         return quotes[currentQuoteIndex]
+    }
+    
+    func getAuthorName() -> String {
+        return self.authors[currentQuoteIndex]
     }
     
     func getQuoteImageName() -> String {
